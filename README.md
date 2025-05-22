@@ -17,4 +17,6 @@ A entrega deste projeto consiste em:
 
 > Enviar o link através da plataforma da EBAC.
 
+#### A ideia principal é uma landing page simples para a hamburgueria EBAC burguer.
+
 ##### Link Vercel: 
