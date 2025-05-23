@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EBAC Burguer</title>
     <link href="./lib/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <header>
         <div class="container mt-3">
@@ -20,12 +22,12 @@
     <div class="container">
         <div class="main">
             <div class="container sobre-loja mt-5">
-                <div class="container ">
+                <div class="container d-flex justify-content-start">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-5">
                             <img src="http://placehold.co/400x300" />
                         </div>
-                        <div class="col-4">
+                        <div class="col-6">
                             <h3>Sobre a loja</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem, sit ad!</p>
                         </div>
@@ -87,17 +89,18 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-5 Fotos-loja">
-                <div class="carousel slide" data-bs-ride="carousel">
+            <div class="container carrosel mt-5 mb-5">
+                <h2 class="mb-3">Destaques</h2>
+                <div class="carousel slide carousel-fade d-flex justify-content-center" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div data-bs-interval="1000" class="carousel-item active">
-                            <img src="http://placehold.co/180x180">
+                        <div data-bs-interval="1500" class="carousel-item active">
+                            <img src="./imgs/burger_1.png" />
                         </div>
-                        <div data-bs-interval="1000" class="carousel-item">
-                            <img src="http://placehold.co/180x180">
+                        <div data-bs-interval="1500" class="carousel-item">
+                            <img src="./imgs/Burger_2.png" />
                         </div>
-                        <div data-bs-interval="1000" class="carousel-item">
-                            <img src="http://placehold.co/180x180">
+                        <div data-bs-interval="1500" class="carousel-item">
+                            <img src="./imgs/burger_3.png" />
                         </div>
                     </div>
                 </div>
@@ -106,4 +109,5 @@
     </div>
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
