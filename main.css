@@ -1,0 +1,39 @@
+.header{
+    background-color: rgb(185, 106, 16);
+    color: aliceblue;
+    max-width: 100%;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.sobre-loja img{
+    height: 300px;
+    border-radius: 8px;
+}
+
+.sobre-loja p{
+    font-weight: bolder;
+}
+
+.card-header{
+    background-color: rgb(230, 126, 8);
+    color: black;
+    font-weight: bold;
+}
+
+.card-body img{
+    height: 100px;
+    width: 100px;
+}
+
+.card-footer{
+    background-color: rgb(26, 26, 26);
+    color: rgb(240, 240, 240);
+}
+
+.carousel-item img{
+    border-radius: 12px;
+}
+
+
+
