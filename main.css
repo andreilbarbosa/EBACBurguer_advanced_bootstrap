@@ -77,7 +77,7 @@
 
 /*Mobile*/
 
-@media screen and (max-width: 640px) and (orientation: portrait) {
+@media screen and (max-width: 640px) and (orientation: portrait){
 
     /*Header*/
     .header {
@@ -85,7 +85,7 @@
     }
 
     .header h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     /*Section Sobre*/
@@ -168,7 +168,109 @@
     }
 
     .footer{
-        font-size: 1.3em;
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+}
+
+/*Tabelts e iPads*/
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+
+    /*Header*/
+    .header {
+        padding: 20px 8px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+
+    /*Section Sobre*/
+    .sobre-loja {
+        display: block;
+    }
+
+    .sobre-loja img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .sobre-texto {
+        margin-top: 60px;
+    }
+
+    .sobre-texto h3 {
+        font-size: 2.2em;
+        font-weight: bolder;
+    }
+
+    .sobre-texto p {
+        margin-top: 22px;
+        font-size: 1.8em;
+        font-weight: lighter;
+    }
+
+    /*Section Pratos*/
+
+    .pratos {
+        border-top: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .pratos h2 {
+        font-size: 2.2em;
+        font-weight: bolder;
+    }
+
+    .container-promos {
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        column-gap: 10%;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 30px 0;
+    }
+
+    .card-header h4 {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    .card-body img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .card-text{
+        margin: 10px 0;
+        font-size: 1.8em;
+        color: rgb(0, 163, 0);
+        text-shadow: 2px  rgb(0, 58, 10);
+        font-weight: 700;
+    }
+
+    .card-footer h6 {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+
+    /*Section Destaques*/
+
+    .carrossel{
+        display: none;
+    }
+
+    /*Footer*/
+
+    .footer {
+        padding: 16px 8px;
+    }
+
+    .footer{
+        font-size: 1.2em;
         font-weight: bolder;
     }
 }
