@@ -1,6 +1,7 @@
 /*Geral*/
 
-.header, .footer{
+.header,
+.footer {
     background-color: rgb(185, 106, 16);
     color: aliceblue;
     display: flex;
@@ -9,64 +10,67 @@
     padding-bottom: 10px;
 }
 
-.sobre-loja, .carrosel, .pratos{
+.sobre-loja,
+.carrosel,
+.pratos {
     padding: 60px 0;
 }
 
-.carrosel h2, .pratos h2{
+.carrosel h2,
+.pratos h2 {
     padding: 20px 0;
 }
 
 /*Sobre*/
 
-.sobre-loja{
+.sobre-loja {
     display: flex;
 }
 
-.sobre-loja img{
+.sobre-loja img {
     display: block;
     height: 300px;
     border-radius: 8px;
     margin-right: 14px;
 }
 
-.sobre-loja p{
+.sobre-loja p {
     font-weight: bolder;
 }
 
 /*Pratos*/
 
-.container-promos{
+.container-promos {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     column-gap: 4%;
 }
 
-.card-header{
+.card-header {
     background-color: rgb(230, 126, 8);
     color: black;
     font-weight: bold;
 }
 
-.card-body img{
+.card-body img {
     height: 100px;
     width: 100px;
 }
 
-.card-footer{
+.card-footer {
     background-color: rgb(26, 26, 26);
     color: rgb(240, 240, 240);
 }
 
 /*Destaques*/
 
-.carousel-item img{
+.carousel-item img {
     border-radius: 12px;
 }
 
 /*Footer*/
 
-.footer{
+.footer {
     font-weight: lighter;
 }
 
@@ -74,5 +78,97 @@
 /*Mobile*/
 
 @media screen and (max-width: 640px) and (orientation: portrait) {
-    
+
+    /*Header*/
+    .header {
+        padding: 20px 8px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+
+    /*Section Sobre*/
+    .sobre-loja {
+        display: block;
+    }
+
+    .sobre-loja img {
+        width: 100%;
+    }
+
+    .sobre-texto {
+        margin-top: 60px;
+    }
+
+    .sobre-texto h3 {
+        font-size: 2em;
+        font-weight: bolder;
+    }
+
+    .sobre-texto p {
+        margin-top: 22px;
+        font-size: 1.6em;
+        font-weight: lighter;
+    }
+
+    /*Section Pratos*/
+
+    .pratos {
+        border-top: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .pratos h2 {
+        font-size: 2em;
+        font-weight: bolder;
+    }
+
+    .container-promos {
+        display: block;
+    }
+
+    .card{
+        margin: 30px 0;
+    }
+
+    .card-header h4 {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+
+    .card-body img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .card-text{
+        margin: 10px 0;
+        font-size: 1.6em;
+        color: rgb(0, 163, 0);
+        text-shadow: 2px  rgb(0, 58, 10);
+        font-weight: 700;
+    }
+
+    .card-footer h6 {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    /*Section Destaques*/
+
+    .carrossel{
+        display: none;
+    }
+
+    /*Footer*/
+
+    .footer {
+        padding: 16px 8px;
+    }
+
+    .footer{
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
 }
