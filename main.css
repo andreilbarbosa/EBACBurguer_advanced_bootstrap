@@ -1,18 +1,45 @@
-.header{
+/*Geral*/
+
+.header, .footer{
     background-color: rgb(185, 106, 16);
     color: aliceblue;
+    display: flex;
     max-width: 100%;
     padding-top: 6px;
     padding-bottom: 10px;
 }
 
+.sobre-loja, .carrosel, .pratos{
+    padding: 60px 0;
+}
+
+.carrosel h2, .pratos h2{
+    padding: 20px 0;
+}
+
+/*Sobre*/
+
+.sobre-loja{
+    display: flex;
+}
+
 .sobre-loja img{
+    display: block;
     height: 300px;
     border-radius: 8px;
+    margin-right: 14px;
 }
 
 .sobre-loja p{
     font-weight: bolder;
+}
+
+/*Pratos*/
+
+.container-promos{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 4%;
 }
 
 .card-header{
@@ -31,9 +58,21 @@
     color: rgb(240, 240, 240);
 }
 
+/*Destaques*/
+
 .carousel-item img{
     border-radius: 12px;
 }
 
+/*Footer*/
+
+.footer{
+    font-weight: lighter;
+}
 
 
+/*Mobile*/
+
+@media screen and (max-width: 640px) and (orientation: portrait) {
+    
+}
